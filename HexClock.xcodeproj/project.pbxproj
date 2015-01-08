@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC3D8A081A5F096200B1D437 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D8A071A5F096200B1D437 /* main.swift */; };
+		AC3D8A0A1A5F096200B1D437 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3D8A091A5F096200B1D437 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC3D8A021A5F096200B1D437 /* HexClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HexClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3D8A061A5F096200B1D437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3D8A071A5F096200B1D437 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AC3D8A091A5F096200B1D437 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC3D8A481A5F2AB300B1D437 /* HexClock.sketch */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HexClock.sketch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC3D89FF1A5F096200B1D437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC3D89F91A5F096200B1D437 = {
+			isa = PBXGroup;
+			children = (
+				AC3D8A041A5F096200B1D437 /* HexClock */,
+				AC3D8A031A5F096200B1D437 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC3D8A031A5F096200B1D437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC3D8A021A5F096200B1D437 /* HexClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC3D8A041A5F096200B1D437 /* HexClock */ = {
+			isa = PBXGroup;
+			children = (
+				AC3D8A071A5F096200B1D437 /* main.swift */,
+				AC3D8A091A5F096200B1D437 /* Images.xcassets */,
+				AC3D8A051A5F096200B1D437 /* Supporting Files */,
+			);
+			path = HexClock;
+			sourceTree = "<group>";
+		};
+		AC3D8A051A5F096200B1D437 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC3D8A061A5F096200B1D437 /* Info.plist */,
+				AC3D8A481A5F2AB300B1D437 /* HexClock.sketch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC3D8A011A5F096200B1D437 /* HexClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3D8A1C1A5F096200B1D437 /* Build configuration list for PBXNativeTarget "HexClock" */;
+			buildPhases = (
+				AC3D89FE1A5F096200B1D437 /* Sources */,
+				AC3D89FF1A5F096200B1D437 /* Frameworks */,
+				AC3D8A001A5F096200B1D437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HexClock;
+			productName = HexClock;
+			productReference = AC3D8A021A5F096200B1D437 /* HexClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC3D89FA1A5F096200B1D437 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Daniel Höpfl";
+				TargetAttributes = {
+					AC3D8A011A5F096200B1D437 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = AC3D89FD1A5F096200B1D437 /* Build configuration list for PBXProject "HexClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC3D89F91A5F096200B1D437;
+			productRefGroup = AC3D8A031A5F096200B1D437 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC3D8A011A5F096200B1D437 /* HexClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC3D8A001A5F096200B1D437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3D8A0A1A5F096200B1D437 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC3D89FE1A5F096200B1D437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3D8A081A5F096200B1D437 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC3D8A1A1A5F096200B1D437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC3D8A1B1A5F096200B1D437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC3D8A1D1A5F096200B1D437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HexClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC3D8A1E1A5F096200B1D437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HexClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC3D89FD1A5F096200B1D437 /* Build configuration list for PBXProject "HexClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3D8A1A1A5F096200B1D437 /* Debug */,
+				AC3D8A1B1A5F096200B1D437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3D8A1C1A5F096200B1D437 /* Build configuration list for PBXNativeTarget "HexClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3D8A1D1A5F096200B1D437 /* Debug */,
+				AC3D8A1E1A5F096200B1D437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC3D89FA1A5F096200B1D437 /* Project object */;
+}
