@@ -74,6 +74,7 @@
 			buildPhases = (
 				AC3D89FE1A5F096200B1D437 /* Sources */,
 				AC3D89FF1A5F096200B1D437 /* Frameworks */,
+				AC8A5D271A5FBE47001A1CA4 /* ShellScript */,
 				AC3D8A001A5F096200B1D437 /* Resources */,
 			);
 			buildRules = (
@@ -127,6 +128,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC8A5D271A5FBE47001A1CA4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"${BUILT_PRODUCTS_DIR}/${CONTENTS_FOLDER_PATH}/Resources\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC3D89FE1A5F096200B1D437 /* Sources */ = {
@@ -258,6 +276,7 @@
 				AC3D8A1E1A5F096200B1D437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
