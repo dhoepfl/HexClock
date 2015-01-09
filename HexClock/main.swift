@@ -44,6 +44,7 @@ class HexClock : NSObject {
     }
 
     func updateScreens() {
+		var	oldWindows = windows;	// don't actually delete the old windows until we've created the new ones.
         windows.removeAll()
 
         let screens = NSScreen.screens() as [NSScreen]
