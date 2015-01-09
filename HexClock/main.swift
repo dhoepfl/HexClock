@@ -52,6 +52,7 @@ class HexClock : NSObject {
             let window = NSWindow(contentRect: screen.frame, styleMask: NSBorderlessWindowMask, backing: .Buffered, defer: true)
             window.level = Int(CGWindowLevelForKey(Int32(kCGDesktopWindowLevelKey)))
             window.backgroundColor = NSColor.clearColor()
+			window.alphaValue = 0.7;
             window.orderFrontRegardless()
 
             windows.append(window)
